@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram.Domain", "Telegram\Telegram.Domain.csproj", "{82F6E365-305A-4B16-A05A-29A7D1F9893A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram.Infrastructure", "Telegram.Infrastructure\Telegram.Infrastructure.csproj", "{15EFF9A2-180E-4989-87F5-C454B1E0469E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram.Presenter", "Telegram.Presenter\Telegram.Presenter.csproj", "{CF180B28-F9BD-418B-A300-6C7A4E055817}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82F6E365-305A-4B16-A05A-29A7D1F9893A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F6E365-305A-4B16-A05A-29A7D1F9893A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F6E365-305A-4B16-A05A-29A7D1F9893A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F6E365-305A-4B16-A05A-29A7D1F9893A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15EFF9A2-180E-4989-87F5-C454B1E0469E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EFF9A2-180E-4989-87F5-C454B1E0469E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EFF9A2-180E-4989-87F5-C454B1E0469E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EFF9A2-180E-4989-87F5-C454B1E0469E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF180B28-F9BD-418B-A300-6C7A4E055817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF180B28-F9BD-418B-A300-6C7A4E055817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF180B28-F9BD-418B-A300-6C7A4E055817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF180B28-F9BD-418B-A300-6C7A4E055817}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1718507B-63C2-464A-9FD7-1B9433A6A8D1}
+	EndGlobalSection
+EndGlobal
